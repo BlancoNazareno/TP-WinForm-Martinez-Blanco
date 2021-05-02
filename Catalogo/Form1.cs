@@ -17,5 +17,14 @@ namespace Catalogo
             InitializeComponent();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
