@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\yonni\\.nuget\\packages\\": {}
+    "C:\\Users\\nazab\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\ProyectoVS\\Catalogo\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\ProyectoVS\\Catalogo\\Dominio\\Dominio.csproj",
-      "packagesPath": "C:\\Users\\yonni\\.nuget\\packages\\",
-      "outputPath": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\ProyectoVS\\Catalogo\\Dominio\\obj\\",
+      "projectPath": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj",
+      "packagesPath": "C:\\Users\\nazab\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\yonni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nazab\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

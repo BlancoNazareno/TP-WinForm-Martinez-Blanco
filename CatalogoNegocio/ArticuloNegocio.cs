@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Dominio;
 using System.Data.SqlClient;
+using System.Data.SqlTypes;
+        
 
 namespace Negocio
 {
@@ -12,7 +14,7 @@ namespace Negocio
     {
         public List<Articulo> listar()
         {
-            
+
             SqlConnection conexion = new SqlConnection();
             SqlCommand comando = new SqlCommand();
             SqlDataReader lector;
@@ -26,42 +28,51 @@ namespace Negocio
             try
             {
                 conexion.Open();
-                lector = comando.ExecuteReader();
-                while (lector.Read())
-                {
-                    Articulo aux = new Articulo();
+            lector = comando.ExecuteReader();
+            while (lector.Read())
+            {
+                Articulo aux = new Articulo();
 
-                    aux.Id = (int)lector["Id"];
-                    aux.Codigo = (string)lector["Codigo"];
-                    //aux.Codigo = lector.GetString(2);
-                    aux.Nombre = (string)lector[Nombre];
-                    //aux.Nombre = lector.GetString(3);
-                    aux.Descripcion = (string)lector["Descripcion"];
-                    //aux.Descripcion = lector.GetString(4);
-                    aux.ImagenUrl = (string)lector["ImagenUrl"];
-                    aux.Precio = (double)lector["Precio"];
-                    //aux.Precio = lector.GetSqlMoney(6);
+                aux.ID = (int)lector["Id"];
+                aux.Codigo = (string)lector["Codigo"];
+                //aux.Codigo = lector.GetString(2);
+                aux.Nombre = (string)lector["Nombre"];
+                //aux.Nombre = lector.GetString(3);
+                aux.Descripcion = (string)lector["Descripcion"];
+                //aux.Descripcion = lector.GetString(4);
+                aux.ImgURL = (string)lector["ImagenUrl"];
+                //aux.Precio = (int)lector["Precio"];
+                aux.Precio = lector.GetSqlMoney(5);
+                //aux.Precio = (string)lector["Precio"];
 
 
-                    aux.Categoria = new Categoria();
-                    aux.Categoria.Descripcion = (string)lector["Categoria"];
-                    aux.Categoria.Id = (int)lector["Id"];
+                aux.Categoria = new Categoria();
+                aux.Categoria.Descripcion = (string)lector["Categoria"];
+                aux.Categoria.ID = (int)lector["ID"];
 
-                    aux.Marca = new Marca();
-                    aux.Marca.Descripcion = (string)lector["Marca"];
-                    aux.Marca.Id = (int)lector["Id"];
+                aux.Marca = new Marca();
+                aux.Marca.Descripcion = (string)lector["Marca"];
+                aux.Marca.ID = (int)lector["ID"];
 
-                    lista.Add(aux);
-                }
-
-                conexion.Close();
-                return lista;
+                lista.Add(aux);
             }
+
+            conexion.Close();
+
+            return lista;
+
+
+            }
+
             catch (Exception ex)
             {
-                throw ex;
+                throw;
             }
-            finally { conexion.Close(); }
+
+            finally
+            {
+                conexion.Close();
+            }
         }
 
     }

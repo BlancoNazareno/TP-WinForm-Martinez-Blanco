@@ -17,3 +17,34 @@ E:\tercerCuatrimestre\01_inicioProgra3PrimerCuatrimestre\ProyectoVS\Catalogo\Cat
 E:\tercerCuatrimestre\01_inicioProgra3PrimerCuatrimestre\ProyectoVS\Catalogo\Catalogo\obj\Debug\net5.0-windows\ref\Catalogo.dll
 E:\tercerCuatrimestre\01_inicioProgra3PrimerCuatrimestre\ProyectoVS\Catalogo\Catalogo\obj\Debug\net5.0-windows\Catalogo.pdb
 E:\tercerCuatrimestre\01_inicioProgra3PrimerCuatrimestre\ProyectoVS\Catalogo\Catalogo\obj\Debug\net5.0-windows\Catalogo.genruntimeconfig.cache
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\bin\Debug\net5.0-windows\Catalogo.exe
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\bin\Debug\net5.0-windows\Catalogo.deps.json
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\bin\Debug\net5.0-windows\Catalogo.runtimeconfig.json
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\bin\Debug\net5.0-windows\Catalogo.runtimeconfig.dev.json
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\bin\Debug\net5.0-windows\Catalogo.dll
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\bin\Debug\net5.0-windows\ref\Catalogo.dll
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\bin\Debug\net5.0-windows\Catalogo.pdb
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\obj\Debug\net5.0-windows\Catalogo.csprojAssemblyReference.cache
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\obj\Debug\net5.0-windows\Catalogo.Agregar.resources
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\obj\Debug\net5.0-windows\Catalogo.Form1.resources
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\obj\Debug\net5.0-windows\Catalogo.Properties.Resources.resources
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\obj\Debug\net5.0-windows\Catalogo.csproj.GenerateResource.cache
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\obj\Debug\net5.0-windows\Catalogo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\obj\Debug\net5.0-windows\Catalogo.AssemblyInfoInputs.cache
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\obj\Debug\net5.0-windows\Catalogo.AssemblyInfo.cs
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\obj\Debug\net5.0-windows\Catalogo.csproj.CoreCompileInputs.cache
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\obj\Debug\net5.0-windows\Catalogo.dll
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\obj\Debug\net5.0-windows\ref\Catalogo.dll
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\obj\Debug\net5.0-windows\Catalogo.pdb
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\obj\Debug\net5.0-windows\Catalogo.genruntimeconfig.cache
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\bin\Debug\net5.0-windows\Dominio.dll
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\bin\Debug\net5.0-windows\Negocio.dll
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\bin\Debug\net5.0-windows\Dominio.pdb
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\bin\Debug\net5.0-windows\Negocio.pdb
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\obj\Debug\net5.0-windows\Catalogo.csproj.CopyComplete
