@@ -48,3 +48,5 @@ C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-
 C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\bin\Debug\net5.0-windows\Negocio.pdb
 C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\obj\Debug\net5.0-windows\Catalogo.csproj.CopyComplete
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\bin\Debug\net5.0-windows\Toolbox.Extensions.dll
+C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Catalogo\bin\Debug\net5.0-windows\Toolbox.Logger.dll

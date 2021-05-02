@@ -41,5 +41,19 @@ namespace Catalogo
         {
             
         }
+
+        private void dgvLista_SelectionChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                Articulo articulo = (Articulo)dgvLista.CurrentRow.DataBoundItem;
+                pbArticulo.Load(articulo.ImgURL);
+            }
+            catch (Exception)
+            {
+
+            }
+
+        }
     }
 }
