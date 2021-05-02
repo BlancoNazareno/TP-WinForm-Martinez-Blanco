@@ -74,10 +74,9 @@ namespace Catalogo
             // 
             this.pbArticulo.Location = new System.Drawing.Point(487, 44);
             this.pbArticulo.MaximumSize = new System.Drawing.Size(300, 300);
-            this.pbArticulo.MinimumSize = new System.Drawing.Size(300, 300);
             this.pbArticulo.Name = "pbArticulo";
             this.pbArticulo.Size = new System.Drawing.Size(300, 300);
-            this.pbArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pbArticulo.TabIndex = 3;
             this.pbArticulo.TabStop = false;
             // 
@@ -129,7 +128,7 @@ namespace Catalogo
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.dgvLista);
             this.Name = "Form1";
-            this.Text = "From1";
+            this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvLista)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbArticulo)).EndInit();
