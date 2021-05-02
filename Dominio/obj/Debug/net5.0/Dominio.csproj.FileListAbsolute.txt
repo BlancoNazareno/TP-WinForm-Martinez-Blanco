@@ -10,3 +10,15 @@ C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-
 C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Dominio\obj\Debug\net5.0\Dominio.dll
 C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Dominio\obj\Debug\net5.0\ref\Dominio.dll
 C:\Users\nazab\Desktop\UTN\Programación III\Progra2021\Repos_GitHub\TP-WinForm-Progra_III\Dominio\obj\Debug\net5.0\Dominio.pdb
+E:\tercerCuatrimestre\01_inicioProgra3PrimerCuatrimestre\TP2\Nueva carpeta\TP-WinForm-Progra_III\Dominio\bin\Debug\net5.0\Dominio.deps.json
+E:\tercerCuatrimestre\01_inicioProgra3PrimerCuatrimestre\TP2\Nueva carpeta\TP-WinForm-Progra_III\Dominio\bin\Debug\net5.0\Dominio.dll
+E:\tercerCuatrimestre\01_inicioProgra3PrimerCuatrimestre\TP2\Nueva carpeta\TP-WinForm-Progra_III\Dominio\bin\Debug\net5.0\ref\Dominio.dll
+E:\tercerCuatrimestre\01_inicioProgra3PrimerCuatrimestre\TP2\Nueva carpeta\TP-WinForm-Progra_III\Dominio\bin\Debug\net5.0\Dominio.pdb
+E:\tercerCuatrimestre\01_inicioProgra3PrimerCuatrimestre\TP2\Nueva carpeta\TP-WinForm-Progra_III\Dominio\obj\Debug\net5.0\Dominio.csprojAssemblyReference.cache
+E:\tercerCuatrimestre\01_inicioProgra3PrimerCuatrimestre\TP2\Nueva carpeta\TP-WinForm-Progra_III\Dominio\obj\Debug\net5.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+E:\tercerCuatrimestre\01_inicioProgra3PrimerCuatrimestre\TP2\Nueva carpeta\TP-WinForm-Progra_III\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfoInputs.cache
+E:\tercerCuatrimestre\01_inicioProgra3PrimerCuatrimestre\TP2\Nueva carpeta\TP-WinForm-Progra_III\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfo.cs
+E:\tercerCuatrimestre\01_inicioProgra3PrimerCuatrimestre\TP2\Nueva carpeta\TP-WinForm-Progra_III\Dominio\obj\Debug\net5.0\Dominio.csproj.CoreCompileInputs.cache
+E:\tercerCuatrimestre\01_inicioProgra3PrimerCuatrimestre\TP2\Nueva carpeta\TP-WinForm-Progra_III\Dominio\obj\Debug\net5.0\Dominio.dll
+E:\tercerCuatrimestre\01_inicioProgra3PrimerCuatrimestre\TP2\Nueva carpeta\TP-WinForm-Progra_III\Dominio\obj\Debug\net5.0\ref\Dominio.dll
+E:\tercerCuatrimestre\01_inicioProgra3PrimerCuatrimestre\TP2\Nueva carpeta\TP-WinForm-Progra_III\Dominio\obj\Debug\net5.0\Dominio.pdb

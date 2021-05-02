@@ -28,12 +28,8 @@ namespace Catalogo
             articulo = artic;
         }
 
-        private void btnCancelarAgregar_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
 
-        private void btnAceptarAgregar_Click(object sender, EventArgs e)
+        private void btnAceptarAgregar_Click_1(object sender, EventArgs e)
         {
             try
             {
@@ -67,7 +63,7 @@ namespace Catalogo
 
             catch (Exception ex)
             {
-                throw ex;
+                throw;
             }
 
 
@@ -75,17 +71,17 @@ namespace Catalogo
 
         private void Agregar_Load(object sender, EventArgs e)
         {
-            MarcaNegocio marca = new MarcaNegocio();
-            cboMarca.DataSource = marca.listar();
+            
+            ArticuloNegocio articuloNegocio = new ArticuloNegocio();
+            cboMarca.DataSource = articuloNegocio.listarMarca();
             cboMarca.ValueMember = "ID";
             cboMarca.DisplayMember = "Descripcion";
-            cboMarca.SelectedIndex = -1;
+            
 
-            CategoriaNegocio negocio = new CategoriaNegocio();
-            cboCategoria.DataSource = negocio.listar();
+            //CategoriaNegocio negocio = new CategoriaNegocio();
+            cboCategoria.DataSource = articuloNegocio.listarCategorias();
             cboCategoria.ValueMember = "ID";
             cboCategoria.DisplayMember = "Descripcion";
-            cboCategoria.SelectedIndex = -1;
 
 
 
@@ -97,9 +93,21 @@ namespace Catalogo
                 cboMarca.SelectedValue = articulo.Marca.ID;
                 cboCategoria.SelectedValue = articulo.Categoria.ID;
                 Text = "Modificar artículo";
+                txtPrecio.Text =Convert.ToString(articulo.Precio);
+                txtImagenUrl.Text = articulo.ImgURL;
             }
+            /*else { 
+                cboCategoria.SelectedIndex = -1;
+                cboMarca.SelectedIndex = -1;
+            }*/
 
         }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
     }
 
 }

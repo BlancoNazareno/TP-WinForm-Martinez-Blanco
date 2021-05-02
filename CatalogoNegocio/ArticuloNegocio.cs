@@ -33,17 +33,18 @@ namespace Negocio
             {
                 Articulo aux = new Articulo();
 
+                
                 aux.ID = (int)lector["Id"];
                 aux.Codigo = (string)lector["Codigo"];
-                //aux.Codigo = lector.GetString(2);
+               
                 aux.Nombre = (string)lector["Nombre"];
-                //aux.Nombre = lector.GetString(3);
+                
                 aux.Descripcion = (string)lector["Descripcion"];
-                //aux.Descripcion = lector.GetString(4);
+              
                 aux.ImgURL = (string)lector["ImagenUrl"];
-                //aux.Precio = (int)lector["Precio"];
+                
                 aux.Precio = lector.GetSqlMoney(5);
-                //aux.Precio = (string)lector["Precio"];
+               
 
 
                 aux.Categoria = new Categoria();
@@ -74,6 +75,169 @@ namespace Negocio
                 conexion.Close();
             }
         }
+        public void agregar(Articulo nuevo)
+        {
 
+
+            SqlConnection conexion = new SqlConnection();
+            SqlCommand comando = new SqlCommand();
+            List<Articulo> lista = new List<Articulo>();
+
+            conexion.ConnectionString = "data source=. \\ sqlexpress; initial catalog= CATALOGO_DB ; integrated security=sspi";
+            comando.CommandType = System.Data.CommandType.Text;
+            comando.CommandText = "Insert into ARTICULOS (Codigo, Nombre, Descripcion, Precio, ImagenUrl, IdCategoria, IdMarca) Values (@Codigo, @Nombre, @Descripcion, @Precio, @ImagenUrl, @IdCategoria, @IdMarca)";
+            comando.Parameters.AddWithValue("@Codigo", nuevo.Codigo);
+            comando.Parameters.AddWithValue("@Nombre", nuevo.Nombre);
+            comando.Parameters.AddWithValue("@Descripcion", nuevo.Descripcion);
+            comando.Parameters.AddWithValue("@Precio", nuevo.Precio);
+            comando.Parameters.AddWithValue("@ImagenUrl", nuevo.ImgURL);
+            comando.Parameters.AddWithValue("@IdCategoria", nuevo.Categoria.ID);
+            comando.Parameters.AddWithValue("@IdMarca", nuevo.Marca.ID);
+            comando.Connection = conexion;
+
+            conexion.Open();
+            comando.ExecuteNonQuery();
+
+        }
+
+
+
+        public List<Categoria> listarCategorias()
+        {
+            List<Categoria> categoria = new List<Categoria>();
+            SqlConnection conexion = new SqlConnection();
+            SqlCommand comando = new SqlCommand();
+            SqlDataReader lector;
+
+            conexion.ConnectionString = "data source=.\\sqlexpress; initial catalog=CATALOGO_DB; integrated security=sspi";
+            comando.CommandType = System.Data.CommandType.Text;
+            
+            comando.CommandText = "SELECT * FROM CATEGORIAS";
+            comando.Connection = conexion;
+            try
+            {
+                conexion.Open();
+
+
+                
+                lector = comando.ExecuteReader();
+                while (lector.Read())
+                {
+                    Categoria CA = new Categoria();
+                    //aux.ID = (int)lector["Id"];
+                    CA.Descripcion = (string)lector["Descripcion"];
+                    CA.ID = (int)lector["Id"];
+                    
+                    categoria.Add(CA);
+                }
+             }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+
+
+            return categoria;
+        }
+
+        public List<Marca> listarMarca()
+        {
+            List<Marca> marca = new List<Marca>();
+            SqlConnection conexion = new SqlConnection();
+            SqlCommand comando = new SqlCommand();
+            SqlDataReader lector;
+
+            conexion.ConnectionString = "data source=.\\sqlexpress; initial catalog=CATALOGO_DB; integrated security=sspi";
+            comando.CommandType = System.Data.CommandType.Text;
+
+            comando.CommandText = "SELECT * FROM MARCAS";
+            comando.Connection = conexion;
+            try
+            {
+                conexion.Open();
+
+
+
+                lector = comando.ExecuteReader();
+                while (lector.Read())
+                {
+                    Marca CA = new Marca();
+                    //aux.ID = (int)lector["Id"];
+                    CA.Descripcion = (string)lector["Descripcion"];
+                    CA.ID = (int)lector["Id"];
+
+                    marca.Add(CA);
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+
+            return marca;
+        }
+        public void modificar(Articulo artic)
+        {
+
+            try
+            {
+                SqlConnection conexion = new SqlConnection();
+                SqlCommand comando = new SqlCommand();
+                List<Articulo> lista = new List<Articulo>();
+
+                conexion.ConnectionString = "data source=.\\sqlexpress; initial catalog=CATALOGO_DB; integrated security=sspi";
+                comando.CommandType = System.Data.CommandType.Text;
+                comando.CommandText = "Update ARTICULOS set Codigo=@Codigo, Nombre=@Nombre, Descripcion=@Descripcion, Precio=@Precio, ImagenUrl=@ImagenUrl, IdCategoria=@IdCategoria, IdMarca=@IdMarca where Id=@Id";
+
+                comando.Parameters.AddWithValue("@Id", artic.ID);
+                comando.Parameters.AddWithValue("@Codigo", artic.Codigo);
+                comando.Parameters.AddWithValue("@Nombre", artic.Nombre);
+                comando.Parameters.AddWithValue("@Descripcion", artic.Descripcion);
+                comando.Parameters.AddWithValue("@Precio", artic.Precio);
+                comando.Parameters.AddWithValue("@ImagenUrl", artic.ImgURL);
+                comando.Parameters.AddWithValue("@IdCategoria", artic.Categoria.ID);
+                comando.Parameters.AddWithValue("@IdMarca", artic.Marca.ID);
+                comando.Connection = conexion;
+
+                conexion.Open();
+                comando.ExecuteNonQuery();
+            }
+
+            catch (Exception ex)
+            {
+                throw;
+            }
+
+        }
+
+        public void eliminar(int id)
+        {
+            try
+            {
+                SqlConnection conexion = new SqlConnection();
+                SqlCommand comando = new SqlCommand();
+
+                conexion.ConnectionString = "data source=.\\sqlexpress; initial catalog=CATALOGO_DB; integrated security=sspi";
+                comando.CommandType = System.Data.CommandType.Text;
+                comando.CommandText = "Delete From ARTICULOS Where Id=@Id";
+
+                comando.Parameters.AddWithValue("@Id", id);
+                comando.Connection = conexion;
+
+                conexion.Open();
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+
+                throw ;
+            }
+        }
     }
+
+
+
 }

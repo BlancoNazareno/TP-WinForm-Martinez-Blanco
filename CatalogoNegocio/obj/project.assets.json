@@ -470,19 +470,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nazab\\.nuget\\packages\\": {}
+    "C:\\Users\\yonni\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\CatalogoNegocio\\Negocio.csproj",
+      "projectUniqueName": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\CatalogoNegocio\\Negocio.csproj",
       "projectName": "Negocio",
-      "projectPath": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\CatalogoNegocio\\Negocio.csproj",
-      "packagesPath": "C:\\Users\\nazab\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\CatalogoNegocio\\obj\\",
+      "projectPath": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\CatalogoNegocio\\Negocio.csproj",
+      "packagesPath": "C:\\Users\\yonni\\.nuget\\packages\\",
+      "outputPath": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\CatalogoNegocio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nazab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yonni\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -496,8 +496,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj"
+            "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj": {
+              "projectPath": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj"
             }
           }
         }

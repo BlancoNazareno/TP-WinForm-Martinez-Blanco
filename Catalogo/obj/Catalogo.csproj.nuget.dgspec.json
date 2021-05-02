@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Catalogo\\Catalogo.csproj": {}
+    "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\Catalogo\\Catalogo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\CatalogoNegocio\\Negocio.csproj": {
+    "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\CatalogoNegocio\\Negocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\CatalogoNegocio\\Negocio.csproj",
+        "projectUniqueName": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\CatalogoNegocio\\Negocio.csproj",
         "projectName": "Negocio",
-        "projectPath": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\CatalogoNegocio\\Negocio.csproj",
-        "packagesPath": "C:\\Users\\nazab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\CatalogoNegocio\\obj\\",
+        "projectPath": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\CatalogoNegocio\\Negocio.csproj",
+        "packagesPath": "C:\\Users\\yonni\\.nuget\\packages\\",
+        "outputPath": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\CatalogoNegocio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nazab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yonni\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj"
+              "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj": {
+                "projectPath": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -68,17 +68,17 @@
         }
       }
     },
-    "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Catalogo\\Catalogo.csproj": {
+    "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\Catalogo\\Catalogo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Catalogo\\Catalogo.csproj",
+        "projectUniqueName": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\Catalogo\\Catalogo.csproj",
         "projectName": "Catalogo",
-        "projectPath": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Catalogo\\Catalogo.csproj",
-        "packagesPath": "C:\\Users\\nazab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Catalogo\\obj\\",
+        "projectPath": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\Catalogo\\Catalogo.csproj",
+        "packagesPath": "C:\\Users\\yonni\\.nuget\\packages\\",
+        "outputPath": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\Catalogo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nazab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yonni\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -92,11 +92,11 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\CatalogoNegocio\\Negocio.csproj": {
-                "projectPath": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\CatalogoNegocio\\Negocio.csproj"
+              "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\CatalogoNegocio\\Negocio.csproj": {
+                "projectPath": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\CatalogoNegocio\\Negocio.csproj"
               },
-              "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj"
+              "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj": {
+                "projectPath": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -146,17 +146,17 @@
         }
       }
     },
-    "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj": {
+    "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\nazab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Dominio\\obj\\",
+        "projectPath": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\yonni\\.nuget\\packages\\",
+        "outputPath": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nazab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yonni\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

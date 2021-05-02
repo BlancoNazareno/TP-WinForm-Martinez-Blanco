@@ -29,7 +29,6 @@ namespace Catalogo
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnAceptar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
@@ -46,27 +45,16 @@ namespace Catalogo
             this.lblImagenUrl = new System.Windows.Forms.Label();
             this.lblPrecio = new System.Windows.Forms.Label();
             this.btnAceptarAgregar = new System.Windows.Forms.Button();
-            this.btnCancelarAgregar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            //// btnAceptar
-            //// 
-            //this.btnAceptar.Location = new System.Drawing.Point(12, 420);
-            //this.btnAceptar.Size = new System.Drawing.Size(88, 26);
-            //this.btnAceptar.TabIndex = 0;
-            //this.btnAceptar.Text = "Aceptar";
-            //this.btnAceptar.UseVisualStyleBackColor = true;
-            //this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
-            //// 
             // btnCancelar
             // 
-            //this.btnCancelar.Location = new System.Drawing.Point(295, 420);
-            //this.btnCancelar.Name = "btnCancelar";
-            //this.btnCancelar.Size = new System.Drawing.Size(81, 27);
-            //this.btnCancelar.TabIndex = 1;
-            //this.btnCancelar.Text = "Cancelar";
-            //this.btnCancelar.UseVisualStyleBackColor = true;
-            //this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            this.btnCancelar.Location = new System.Drawing.Point(242, 307);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelar.TabIndex = 18;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // txtCodigo
             // 
@@ -88,7 +76,6 @@ namespace Catalogo
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(205, 23);
             this.txtDescripcion.TabIndex = 4;
-            //this.txtDescripcion.TextChanged += new System.EventHandler(this.txtDescripcion_TextChanged);
             // 
             // txtPrecio
             // 
@@ -103,7 +90,6 @@ namespace Catalogo
             this.txtImagenUrl.Name = "txtImagenUrl";
             this.txtImagenUrl.Size = new System.Drawing.Size(205, 23);
             this.txtImagenUrl.TabIndex = 6;
-            //this.txtImagenUrl.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // cboMarca
             // 
@@ -120,7 +106,6 @@ namespace Catalogo
             this.cboCategoria.Name = "cboCategoria";
             this.cboCategoria.Size = new System.Drawing.Size(205, 23);
             this.cboCategoria.TabIndex = 8;
-           // this.cboCategoria.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // lblCodigo
             // 
@@ -184,7 +169,6 @@ namespace Catalogo
             this.lblPrecio.Size = new System.Drawing.Size(40, 15);
             this.lblPrecio.TabIndex = 15;
             this.lblPrecio.Text = "Precio";
-            //this.lblPrecio.Click += new System.EventHandler(this.label7_Click);
             // 
             // btnAceptarAgregar
             // 
@@ -194,22 +178,13 @@ namespace Catalogo
             this.btnAceptarAgregar.TabIndex = 16;
             this.btnAceptarAgregar.Text = "Aceptar";
             this.btnAceptarAgregar.UseVisualStyleBackColor = true;
-            // 
-            // btnCancelarAgregar
-            // 
-            this.btnCancelarAgregar.Location = new System.Drawing.Point(214, 307);
-            this.btnCancelarAgregar.Name = "btnCancelarAgregar";
-            this.btnCancelarAgregar.Size = new System.Drawing.Size(75, 23);
-            this.btnCancelarAgregar.TabIndex = 17;
-            this.btnCancelarAgregar.Text = "Cancelar";
-            this.btnCancelarAgregar.UseVisualStyleBackColor = true;
+            this.btnAceptarAgregar.Click += new System.EventHandler(this.btnAceptarAgregar_Click_1);
             // 
             // Agregar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(359, 459);
-            this.Controls.Add(this.btnCancelarAgregar);
             this.Controls.Add(this.btnAceptarAgregar);
             this.Controls.Add(this.lblPrecio);
             this.Controls.Add(this.lblImagenUrl);
@@ -226,7 +201,6 @@ namespace Catalogo
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.btnAceptar);
             this.Name = "Agregar";
             this.Text = "Agregar";
             this.Load += new System.EventHandler(this.Agregar_Load);
@@ -236,8 +210,6 @@ namespace Catalogo
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.TextBox txtNombre;
@@ -254,6 +226,5 @@ namespace Catalogo
         private System.Windows.Forms.Label lblImagenUrl;
         private System.Windows.Forms.Label lblPrecio;
         private System.Windows.Forms.Button btnAceptarAgregar;
-        private System.Windows.Forms.Button btnCancelarAgregar;
     }
 }

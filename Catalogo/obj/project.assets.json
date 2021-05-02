@@ -567,19 +567,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nazab\\.nuget\\packages\\": {}
+    "C:\\Users\\yonni\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Catalogo\\Catalogo.csproj",
+      "projectUniqueName": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\Catalogo\\Catalogo.csproj",
       "projectName": "Catalogo",
-      "projectPath": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Catalogo\\Catalogo.csproj",
-      "packagesPath": "C:\\Users\\nazab\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Catalogo\\obj\\",
+      "projectPath": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\Catalogo\\Catalogo.csproj",
+      "packagesPath": "C:\\Users\\yonni\\.nuget\\packages\\",
+      "outputPath": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\Catalogo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\nazab\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yonni\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -593,11 +593,11 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\CatalogoNegocio\\Negocio.csproj": {
-              "projectPath": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\CatalogoNegocio\\Negocio.csproj"
+            "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\CatalogoNegocio\\Negocio.csproj": {
+              "projectPath": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\CatalogoNegocio\\Negocio.csproj"
             },
-            "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\nazab\\Desktop\\UTN\\Programación III\\Progra2021\\Repos_GitHub\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj"
+            "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj": {
+              "projectPath": "E:\\tercerCuatrimestre\\01_inicioProgra3PrimerCuatrimestre\\TP2\\Nueva carpeta\\TP-WinForm-Progra_III\\Dominio\\Dominio.csproj"
             }
           }
         }
@@ -652,7 +652,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Toolbox 0.2.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "message": "El paquete \"Toolbox 0.2.2\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net5.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
       "libraryId": "Toolbox",
       "targetGraphs": [
         "net5.0-windows7.0"
