@@ -22,7 +22,8 @@ namespace Negocio
 
             conexion.ConnectionString = "data source=.\\sqlexpress; initial catalog=CATALOGO_DB; integrated security=sspi";
             comando.CommandType = System.Data.CommandType.Text;
-            comando.CommandText = "Select A.Id, A.Codigo, A.Nombre, A.Descripcion, A.ImagenUrl, A.Precio, M.Descripcion Marca, C.Descripcion Categoria From ARTICULOS A join CATEGORIAS C on A.IdCategoria = C.Id join MARCAS M on A.IdMarca = M.Id";
+            comando.CommandText = "Select A.ID, A.Codigo Codigo, A.Nombre, A.Descripcion, A.ImagenUrl, Precio, C.Descripcion Categoria, C.Id IdCategoria, M.Id IdMarca, M.Descripcion Marca From ARTICULOS A join CATEGORIAS C on A.IdCategoria = C.Id join MARCAS M on A.IdMarca = M.Id";
+            //comando.CommandText = "Select A.Id, A.Codigo, A.Nombre, A.Descripcion, A.ImagenUrl, A.Precio, M.Descripcion Marca, C.Descripcion Categoria From ARTICULOS A join CATEGORIAS C on A.IdCategoria = C.Id join MARCAS M on A.IdMarca = M.Id";
             comando.Connection = conexion;
 
             try
@@ -49,11 +50,11 @@ namespace Negocio
 
                 aux.Categoria = new Categoria();
                 aux.Categoria.Descripcion = (string)lector["Categoria"];
-                aux.Categoria.ID = (int)lector["ID"];
+                aux.Categoria.ID = (int)lector["IdCategoria"];
 
                 aux.Marca = new Marca();
                 aux.Marca.Descripcion = (string)lector["Marca"];
-                aux.Marca.ID = (int)lector["ID"];
+                aux.Marca.ID = (int)lector["IdMarca"];
 
                 lista.Add(aux);
             }
@@ -83,21 +84,32 @@ namespace Negocio
             SqlCommand comando = new SqlCommand();
             List<Articulo> lista = new List<Articulo>();
 
-            conexion.ConnectionString = "data source=. \\ sqlexpress; initial catalog= CATALOGO_DB ; integrated security=sspi";
-            comando.CommandType = System.Data.CommandType.Text;
-            comando.CommandText = "Insert into ARTICULOS (Codigo, Nombre, Descripcion, Precio, ImagenUrl, IdCategoria, IdMarca) Values (@Codigo, @Nombre, @Descripcion, @Precio, @ImagenUrl, @IdCategoria, @IdMarca)";
-            comando.Parameters.AddWithValue("@Codigo", nuevo.Codigo);
-            comando.Parameters.AddWithValue("@Nombre", nuevo.Nombre);
-            comando.Parameters.AddWithValue("@Descripcion", nuevo.Descripcion);
-            comando.Parameters.AddWithValue("@Precio", nuevo.Precio);
-            comando.Parameters.AddWithValue("@ImagenUrl", nuevo.ImgURL);
-            comando.Parameters.AddWithValue("@IdCategoria", nuevo.Categoria.ID);
-            comando.Parameters.AddWithValue("@IdMarca", nuevo.Marca.ID);
-            comando.Connection = conexion;
+            try
+            {
+                conexion.ConnectionString = "data source=. \\ sqlexpress; initial catalog= CATALOGO_DB ; integrated security=sspi";
+                comando.CommandType = System.Data.CommandType.Text;
+                comando.CommandText = "Insert into ARTICULOS (Codigo, Nombre, Descripcion, Precio, ImagenUrl, IdCategoria, IdMarca) Values (@Codigo, @Nombre, @Descripcion, @Precio, @ImagenUrl, @IdCategoria, @IdMarca)";
+                comando.Parameters.AddWithValue("@Codigo", nuevo.Codigo);
+                comando.Parameters.AddWithValue("@Nombre", nuevo.Nombre);
+                comando.Parameters.AddWithValue("@Descripcion", nuevo.Descripcion);
+                comando.Parameters.AddWithValue("@Precio", nuevo.Precio);
+                comando.Parameters.AddWithValue("@ImagenUrl", nuevo.ImgURL);
+                comando.Parameters.AddWithValue("@IdCategoria", nuevo.Categoria.ID);
+                comando.Parameters.AddWithValue("@IdMarca", nuevo.Marca.ID);
+                comando.Connection = conexion;
 
-            conexion.Open();
-            comando.ExecuteNonQuery();
 
+                conexion.Open();
+                comando.ExecuteNonQuery();
+            }
+            catch(Exception ex)
+            {
+                throw;
+            }
+            finally
+            {
+                conexion.Close();
+            }
         }
 
 
@@ -134,7 +146,7 @@ namespace Negocio
             catch (Exception ex)
             {
 
-                throw ex;
+                throw;
             }
 
 
@@ -168,16 +180,23 @@ namespace Negocio
                     CA.ID = (int)lector["Id"];
 
                     marca.Add(CA);
+
                 }
+
+                return marca;
             }
+
             catch (Exception)
             {
-
                 throw;
             }
 
+            
 
-            return marca;
+            finally
+            {
+                conexion.Close();
+            }
         }
         public void modificar(Articulo artic)
         {
@@ -210,7 +229,7 @@ namespace Negocio
             {
                 throw;
             }
-
+            
         }
 
         public void eliminar(int id)
@@ -235,6 +254,7 @@ namespace Negocio
 
                 throw ;
             }
+
         }
     }
 
