@@ -76,6 +76,22 @@ namespace Catalogo
             negocio.eliminar(((Articulo)dgvLista.CurrentRow.DataBoundItem).ID);
             cargar();
         }
+
+
+        private void btnVerDetalle_Click_1(object sender, EventArgs e)
+        {
+            Articulo artic1 = new Articulo();
+            MessageBox.Show(((Articulo)dgvLista.CurrentRow.DataBoundItem).Descripcion);
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            List<Articulo> lista = (List<Articulo>)dgvLista.DataSource;
+            List<Articulo> listaFiltrada = listaOriginal.FindAll(x => x.Codigo.ToUpper().Contains(txtFiltro.Text.ToUpper()));
+            dgvLista.DataSource = listaFiltrada;
+
+
+        }
     }
 
 }

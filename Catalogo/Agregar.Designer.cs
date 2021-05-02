@@ -29,6 +29,7 @@ namespace Catalogo
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Agregar));
             this.btnCancelar = new System.Windows.Forms.Button();
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
@@ -49,11 +50,13 @@ namespace Catalogo
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(242, 307);
+            this.btnCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnCancelar.Location = new System.Drawing.Point(216, 307);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 18;
             this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // txtCodigo
@@ -172,7 +175,7 @@ namespace Catalogo
             // 
             // btnAceptarAgregar
             // 
-            this.btnAceptarAgregar.Location = new System.Drawing.Point(67, 307);
+            this.btnAceptarAgregar.Location = new System.Drawing.Point(82, 307);
             this.btnAceptarAgregar.Name = "btnAceptarAgregar";
             this.btnAceptarAgregar.Size = new System.Drawing.Size(75, 23);
             this.btnAceptarAgregar.TabIndex = 16;
@@ -184,7 +187,8 @@ namespace Catalogo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(359, 459);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.ClientSize = new System.Drawing.Size(359, 344);
             this.Controls.Add(this.btnAceptarAgregar);
             this.Controls.Add(this.lblPrecio);
             this.Controls.Add(this.lblImagenUrl);
@@ -201,6 +205,7 @@ namespace Catalogo
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.txtCodigo);
             this.Controls.Add(this.btnCancelar);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Agregar";
             this.Text = "Agregar";
             this.Load += new System.EventHandler(this.Agregar_Load);
